@@ -1,0 +1,29 @@
+{
+    "author" : "Mason Lee",
+    "commands" : [
+        {
+            "script" : "bottomtotop.js",
+            "name" : "Bottom to top",
+            "handlers" : "onRun",
+            "identifier" : "bottomtotop"
+        },
+        {
+            "script" : "toptobottom.js",
+            "name" : "Top to bottom",
+            "handlers" : "onRun",
+            "identifier" : "toptobottom"
+        }
+    ],
+    "menu" : {
+        "title" : "Reorder Artboards",
+        "items" : [
+            "bottomtotop",
+            "toptobottom"
+        ]
+    },
+    "identifier" : "com.masonlee.reorder.artboards",
+    "version" : "1.0",
+    "description" : "Reorder artboards on layer list based on artboards placement",
+    "authorEmail" : "m.mason.lee@gmail.com",
+    "name" : "Cleanup Artboards Order"
+}
